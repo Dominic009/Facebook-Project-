@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f2f5;
+}
+
+.logo{
+    color: #1877f2;
+    font-weight: bold;
+    font-size:55px;
+    letter-spacing: -3px;
+    margin-top: 165px;
+    margin-left:180px;
+}
+.des{
+   
+    font-size: 24px;
+    color: rgb(17, 16, 16);
+    margin-left: 180px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+div {
+    width: 300px;
+    border: none;
+    padding: 50px;
+    margin: 20px;
+    background-color: white;
+    box-sizing: box-shadow;
+    box-shadow: 2px;
+  }
