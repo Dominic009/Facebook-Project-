@@ -1,11 +1,141 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
 }
 
+.Page{
+    display: flex;
+    /* border: solid 1px; */
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-part{
+    display: flex;
+    flex: 1;
+    /* border: solid 1px; */
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .logo{
+    color: #1877f2;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.box{
+    /* border: solid 1px; */
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    height: 800px;
+}
+
+.logbx{
+    /* border: solid 1px; */
+    border-radius: 5px;
+    height: 280px;
+    width: 305px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 8px 5px 12px;
+    margin-top: -52px;
+    margin-left: 65px;
+    box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.4);
+}
+
+.logbx input{
+    outline: none;
+    border: solid 1px lightgrey;
+    border-radius: 5px;
+    background-color: white;
+    height: 16px;
+    width: 90%;
+    padding: 12px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+}
+
+.logbx input::placeholder{
+
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+
+.loginbtn{
+    width: 99%;
+    height: 14%;
+    margin-top: 13px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border:none ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logbx input:focus{
+    border: solid 1px #1877f2;
+}
+
+.logbx a{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    text-decoration: none;
+    color: #1877f2;
+    line-height: 15px;
+    background-color: white;
+}
+
+.logbx div{
+    border-top: solid 1px rgb(205, 205, 205);
+    width: 99%;
+    height: 10px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+.newaccntbtn{
+    width: 52%;
+    height: 14%;
+    margin-top: 13px;
+    margin-left: 72px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border:none ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.newaccntbtn:hover{
+    background-color: #389a25;
+}
+
+.logbx p span{
+    font-weight: 700;
+}
+
+.logbx p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* .logo{
     color: #1877f2;
     font-weight: bold;
     font-size:55px;
@@ -20,8 +150,8 @@
     margin-left: 180px;
     font-weight: 400;
     letter-spacing: -1px;
-}
-div {
+} */
+/* div {
     width: 300px;
     border: none;
     padding: 50px;
@@ -29,4 +159,4 @@ div {
     background-color: white;
     box-sizing: box-shadow;
     box-shadow: 2px;
-  }
+  } */
