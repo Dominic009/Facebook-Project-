@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #f0f2f5;
+}
+
+input::placeholder {
+  font-size: 18px;
+}
+
+.new-account{
+  transform: translateX(50%) translateY(50%);
+}
+
+.new-account:hover{
+  background-color: #299314;
+  transition: 0.2s;
+}
